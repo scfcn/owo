@@ -26,7 +26,7 @@
 您也可以在twikoo中直接调用owo.json进行使用：
 
 ```
-https://fastly.jsdelivr.net/gh/willow-god/owo/.json/twikoo-emoji.json
+https://jsd.qixz.cn/gh/scfcn/owo/.json/twikoo-emoji.json
 ```
 
 ## 贡献
