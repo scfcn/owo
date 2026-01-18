@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表情展示中心</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">表情展示中心</h1>
+            <p class="header-subtitle">发现和使用各种有趣的表情</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- 搜索和分类导航 -->
+            <div class="controls">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="搜索表情..." class="search-input">
+                    <button id="search-btn" class="search-btn">搜索</button>
+                </div>
+                <nav class="category-nav">
+                    <ul id="category-list" class="category-list">
+                        <!-- 分类将通过JavaScript动态生成 -->
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- 加载状态 -->
+            <div id="loading" class="loading">
+                <div class="loading-spinner"></div>
+                <p>加载中...</p>
+            </div>
+
+            <!-- 表情展示区域 -->
+            <div id="emoji-grid" class="emoji-grid">
+                <!-- 表情卡片将通过JavaScript动态生成 -->
+            </div>
+
+            <!-- 无结果提示 -->
+            <div id="no-results" class="no-results hidden">
+                <p>未找到匹配的表情</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- 表情预览模态框 -->
+    <div id="preview-modal" class="modal hidden">
+        <div class="modal-content">
+            <button id="close-modal" class="close-modal">&times;</button>
+            <div id="preview-content" class="preview-content">
+                <!-- 预览内容将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 表情展示中心</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
