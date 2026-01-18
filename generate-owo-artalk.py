@@ -68,7 +68,7 @@ def generate_artalk_emojis(base_url, emoji_folders, output_path='.json/artalk-em
     print(f"表情包 JSON 文件已生成: {output_path}")
 
 if __name__ == "__main__":
-    base_url = "https://jsd.qixz.cn/gh/scfcn/owo"
+    base_url = "https://cdn.jsdmirror.com/gh/scfcn/owo"
     folders = ["qingzhu", "liushen", "blobcat", "bilibili", "zhheo"]
     origin_json = ".json/artalk-emoji.json"
     output = ".json/artalk-emoji.json"
