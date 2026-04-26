@@ -84,7 +84,7 @@ def generate_twikoo_emojis(base_url, emoji_folders, output_path='.json/twikoo-em
     print(f"Twikoo 表情包 JSON 文件已生成: {output_path}")
 
 if __name__ == "__main__":
-    base_url = "https://owo.69b94fb6.er.aliyun-esa.net"
+    base_url = "https://owo.qixz.cn"
     folders = ["qingzhu", "liushen", "blobcat", "bilibili", "zhheo"]
     origin_json = ".json/twikoo.json"
     output = ".json/twikoo-emoji.json"
