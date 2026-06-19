@@ -280,6 +280,12 @@ body {
   color: var(--accent);
 }
 
+.copyright {
+  color: var(--text);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
 .beian-mps {
   display: inline-flex;
   align-items: center;
